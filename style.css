@@ -121,7 +121,7 @@ img {
     margin-left: auto;
   }
 
-  /* Blocco Come Funziona */
+  /* Blocco Steps */
 
   #steps .row>.left,
   #steps .row>.central,
@@ -145,5 +145,27 @@ img {
     margin-bottom: 0px;
   }
 
-  /*  Blocco Cademi */
+  /*  Blocco Perché */
+
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+  width: 100%;
+  margin-top: 20px;
+  }
+
+  #why .row>.first h3,
+  #why .row>.second h3,
+  #why .row>.third h3 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #why .row img {
+    background-color: #428bca;
+    border-radius: 50%;
+    padding: 30px;
+    width: 15%;
+    height: 15%;
+  }
 }
